@@ -1,7 +1,67 @@
 .App {
   text-align: center;
 }
+.header {
+  display: flex;
+  background-color: #5964e0;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+img {
+  position: relative;
+  top: -20px;
+  margin: auto;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  align-self: center;
+  border-radius: 10px;
+}
 
+html {
+  background-color: #f5f6f8;
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33.333333%;
+  margin: 50px;
+  padding-left: 0px;
+  text-align: left;
+}
+.box1 {
+  height: auto;
+  width: 300px;
+  border: 5px;
+  background-color: #ffffff;
+  margin: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.posted,
+.company {
+  color: slategray;
+}
+.location {
+  color: #5c66e1;
+}
+button {
+  border: none;
+  background-color: #5964e0;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+}
+.fonti {
+  font-size: x-large;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
